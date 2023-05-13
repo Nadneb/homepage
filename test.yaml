@@ -1,8 +1,8 @@
 - name: My first play
   hosts: webservers
   tasks:
-    - name: Ping my hosts
+    - name: 初始化目录
       ansible.builtin.ping:
-    - name: Print message
+    - name: 上传文件
       ansible.builtin.debug:
         msg: Hello world
